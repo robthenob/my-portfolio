@@ -99,3 +99,27 @@ p {
   box-shadow: var(--box-shadow);
   border: solid white 8px;
 }
+
+@media (max-width: 767px) {
+  .app-header {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0px 30px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p,
+  .email-link {
+    font-size: 16px;
+  }
+}
